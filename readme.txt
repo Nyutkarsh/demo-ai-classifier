@@ -26,12 +26,13 @@ Running the application
 -Unzip the file
 -navigate to the root folder 
 -replace ${OPENAI_API_KEY} with your API key in project_root/docker-compose.yml
+if you don't have docker, replace ${OPENAI_API_KEY} in application.yml
 
 if you have docker [easiest and production grade from local machine, I have removed the dependency of doing mvn install and target folder in repo, when we run docker compose command it will build the project nad run it.]:
 -ensure docker is running in your system
 -run command : docker compose up -d
 
-If you don't have docker [Easiest common from local machine]:
+If you don't have docker [Easiest common way is from local machine]:
 -open the project into any javaee IDE
 -find the TicketCLassifierApplication class and run/debug.
 
