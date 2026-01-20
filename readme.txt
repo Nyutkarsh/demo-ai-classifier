@@ -29,7 +29,6 @@ Running the application
 
 if you have docker [easiest and production grade from local machine]:
 -ensure docker is running in your system
-
 -run command : docker compose up -d
 
 If you don't have docker [Easiest common from local machine]:
