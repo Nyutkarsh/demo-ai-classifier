@@ -27,7 +27,7 @@ Running the application
 -navigate to the root folder 
 -replace ${OPENAI_API_KEY} with your API key in project_root/docker-compose.yml
 
-if you have docker [easiest and production grade from local machine]:
+if you have docker [easiest and production grade from local machine, I have removed the dependency of doing mvn install and target folder in repo, when we run docker compose command it will build the project nad run it.]:
 -ensure docker is running in your system
 -run command : docker compose up -d
 
