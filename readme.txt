@@ -25,10 +25,11 @@ src/main/java/com/vupico/ticket
 Running the application
 -Unzip the file
 -navigate to the root folder 
+-replace ${OPENAI_API_KEY} with your API key in project_root/docker-compose.yml
 
 if you have docker [easiest and production grade from local machine]:
 -ensure docker is running in your system
--replace ${OPENAI_API_KEY} with your API key in prokect_root/docker-compose.yml
+
 -run command : docker compose up -d
 
 If you don't have docker [Easiest common from local machine]:
